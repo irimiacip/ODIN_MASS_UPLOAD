@@ -19,9 +19,7 @@ public class ExpectedResults {
 
 		 String strExpected = org.apache.commons.io.IOUtils.toString(expected);
 		
-		 
 		 strExpected = strExpected.replace("DATE", data_system);
-		 
 		 
 		 XMLUnit.setIgnoreWhitespace(true); 	
 		 		 
