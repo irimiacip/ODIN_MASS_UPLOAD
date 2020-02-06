@@ -54,9 +54,7 @@ public class DataCalcul {
 		}
 
         return aaa;
-
 	}
-	
 	public static String fomatDay(String  actualDate){
 		String formated_date=null;
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd", Locale.ENGLISH);

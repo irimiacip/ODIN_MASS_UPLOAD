@@ -25,9 +25,7 @@ public class XmlComparator {
 
 		FileInputStream fis1 = new FileInputStream(path_expected+ expectedXml);		 
 		 BufferedReader expected = new BufferedReader(new InputStreamReader(fis1));
-
 		 String strExpected = org.apache.commons.io.IOUtils.toString(expected);
-		
 		 XMLUnit.setIgnoreWhitespace(true); 		 
 		 
 		// List differences_validator = compareXML(ActualResults.obtainResponse(path, actualXml), strExpected); 
@@ -76,7 +74,6 @@ public class XmlComparator {
 		              printDifferences(differences_validator);
 		              break;
 			    }
-
 		 case 2:
 			 
 			 
@@ -147,10 +144,7 @@ public class XmlComparator {
 	              break;
 		    }
 			 
-			 
-			 
-			 
-			 
+
 			/* List differences_request_procesor = compareXML(ActualResults.obtainResponse_request_processor(path, actualXml,VERSION_PROCESSOR_1), strExpected); 
              //System.out.println("differences_request_procesor");
              printDifferences(differences_request_procesor);
