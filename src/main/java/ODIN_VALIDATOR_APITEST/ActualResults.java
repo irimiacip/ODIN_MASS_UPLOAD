@@ -118,8 +118,7 @@ public  class ActualResults {
 	}
 	
 	
-	public static String obtainResponse_request_processor(String path, String body_1 , String VERSION_PROCESSOR) throws Exception {
-		
+	public static String obtainResponse_request_processor(String path, String body_1 , String VERSION_PROCESSOR) throws Exception {		
 		Response result = (Response)RestAssured.given().
 				contentType("text/plain").				
 				body(ReadBody.getBodyFromFilepath(path, body_1)).

@@ -39,11 +39,9 @@ public class GetHour {
 		System.out.println(format2);
 		System.out.println(format3);*/
 		
-		 ZoneId test = ZoneId.of("America/New_York");
+		ZoneId test = ZoneId.of("America/New_York");
 		LocalDate today = LocalDate.now(test);
-		
-		
-	
+			
 		//DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEE, d MMM yyyy HH:mm:ss Z");
 		//String formattedString = today.format(formatter);
 		
