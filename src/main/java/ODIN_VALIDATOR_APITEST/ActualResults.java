@@ -37,8 +37,7 @@ public  class ActualResults {
 		
         String data_system = DataCalcul.returnDate(day,date_format_value);
 		String replace = ReadBody.getBodyFromFilepath(path, body_1);
-		replace = replace.replace("DATE", data_system);
-						
+		replace = replace.replace("DATE", data_system);						
 		Response result = (Response)RestAssured.given().
 				contentType("text/plain").				
 				body(replace).
@@ -52,8 +51,7 @@ public  class ActualResults {
 		
         String data_system = DataCalcul.returnDate(day,date_format_value);
 		String replace = ReadBody.getBodyFromFilepath(path, body_1);
-		replace = replace.replace("DATE", data_system);
-						
+		replace = replace.replace("DATE", data_system);						
 		Response result = (Response)RestAssured.given().
 				contentType("text/plain").				
 				body(replace).
