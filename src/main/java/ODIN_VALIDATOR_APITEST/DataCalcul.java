@@ -93,8 +93,7 @@ public class DataCalcul {
 		Calendar calendar = GregorianCalendar.getInstance(); // creates a new calendar instance
 	//	int a = calendar.get(Calendar.HOUR);        // gets hour in 12h format
 		//int b = calendar.get(Calendar.MINUTE);
-	//	String hour = String.valueOf(a-1); 
-		
+	//	String hour = String.valueOf(a-1); 		
 		Instant now = Instant.now();
 		ZonedDateTime chicago = now.atZone(ZoneId.of("Europe/Paris"));
 		String hour = (String)chicago.format(DateTimeFormatter.ofLocalizedTime(FormatStyle.FULL));
