@@ -28,7 +28,6 @@ public class ValidatorTest {
 	
 	final static Logger logger = Logger.getLogger(ValidatorTest.class);
 	
-
 	@BeforeMethod
 
 	public void startTest() {
