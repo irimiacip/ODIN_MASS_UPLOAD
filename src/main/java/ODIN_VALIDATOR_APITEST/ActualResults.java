@@ -11,8 +11,7 @@ public  class ActualResults {
 
 	
 	
-	public static String obtainResponse_validator_v1(String path, String body_1) throws Exception {
-		
+	public static String obtainResponse_validator_v1(String path, String body_1) throws Exception {		
 		Response result = (Response)RestAssured.given().
 				contentType("text/plain").				
 				body(ReadBody.getBodyFromFilepath(path, body_1)).
@@ -22,8 +21,7 @@ public  class ActualResults {
 	}
 	
 	
-	public static String obtainResponse_validator_v2(String path, String body_1) throws Exception {
-		
+	public static String obtainResponse_validator_v2(String path, String body_1) throws Exception {		
 		Response result = (Response)RestAssured.given().
 				contentType("text/plain").				
 				body(ReadBody.getBodyFromFilepath(path, body_1)).
@@ -33,7 +31,6 @@ public  class ActualResults {
 	}
 	
 	public static String obtainResponse_validator_v3(String path, String body_1, String day ,Integer date_format_value) throws Exception {
-		
 		
         String data_system = DataCalcul.returnDate(day,date_format_value);
 		String replace = ReadBody.getBodyFromFilepath(path, body_1);
