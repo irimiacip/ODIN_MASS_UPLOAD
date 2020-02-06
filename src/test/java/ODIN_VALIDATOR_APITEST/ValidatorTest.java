@@ -58,7 +58,6 @@ public class ValidatorTest {
 		assertTrue(respond.contains(check));
 	}
 
-
 	@Test(priority=3)
 	public void test3() throws Exception {
 		logger.info("TEST -- 3 --");
