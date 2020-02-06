@@ -169,10 +169,7 @@ public class XmlComparator {
 		 System.out.println("Total differences : " + totalDifferences);
 		 System.out.println("---------------------------------"); 
 			//logger.info("Total differences : " + totalDifferences);
-
-		 		 		 
 		 for(String difference : differences){
-			 
 			 System.out.println(difference); } 
 		 
 		 }

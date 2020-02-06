@@ -10,7 +10,6 @@ public class Consts {
 	public static final String VERSION_1 = "v_1_0";
 	public static final String VERSION_2 = "v_2_0";
 	public static final String VERSION_3 = "v_3_0";
-	
 	public static final String VERSION_5 = "v_5_0";
 	public static final String VERSION_6 = "v_6_0";
 	public static final String VERSION_7 = "v_7_0";
