@@ -10,8 +10,7 @@ public class App2 {
 
 	@Test(priority=1)
 		public static void test1() {
-			System.out.println("test 1");
-			
+			System.out.println("test 1");			
 		}
 	@Test(priority=2)
 	public static void test2() {
