@@ -144,7 +144,6 @@ public class XmlComparator {
 	              break;
 		    }
 			 
-
 			/* List differences_request_procesor = compareXML(ActualResults.obtainResponse_request_processor(path, actualXml,VERSION_PROCESSOR_1), strExpected); 
              //System.out.println("differences_request_procesor");
              printDifferences(differences_request_procesor);
@@ -158,11 +157,9 @@ public class XmlComparator {
     
     @SuppressWarnings("rawtypes")
 	public static List compareXML(String string, String string2) throws SAXException, IOException { 
-
 		 Diff xmlDiff = new Diff(string, string2); 		 		 
 		 DetailedDiff detailXmlDiff = new DetailedDiff(xmlDiff); 		 
-		 return detailXmlDiff.getAllDifferences(); 
-		 
+		 return detailXmlDiff.getAllDifferences(); 		 
 		 } 
 		 
 		 public static void printDifferences(List<String> differences)  { 
